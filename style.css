@@ -1,0 +1,1533 @@
+    /*!Header Section*/
+    
+    .header {
+        border-bottom: 1px solid black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: white;
+        z-index: 99;
+        width: 100%;
+    }
+    
+    .logo {
+        ;
+        margin-top: 10px;
+    }
+    
+    .logo span {
+        display: inline-block;
+        background: #6278df;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        line-height: -1px;
+    }
+    
+    .logo p {
+        display: inline-block;
+        font-size: 26px;
+        font-weight: 574;
+        /*! line-height: 56px; */
+    }
+    
+    .menu {
+        margin-top: 10px;
+    }
+    
+    .menu ul {
+        margin-top: 0px;
+    }
+    
+    .menu ul li {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .menu ul li a {
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 6px 19px;
+    }
+    
+    .menu ul li ul li {
+        display: block;
+        margin-left: -33px;
+        padding: 0;
+        /*! width: 177px; */
+    }
+    
+    .menu ul li ul li:nth-child(2) {
+        /*! padding: 10px 0px; */
+        border-top: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(3) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(4) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(5) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+    }
+    
+    .menu ul li ul li a {
+        display: block;
+        color: black;
+        padding: 11px 21px;
+    }
+    
+    .menu ul li ul {
+        position: absolute;
+        top: 100%;
+        left: -3px;
+        visibility: hidden;
+        opacity: 0;
+        background: white;
+        right: 0px;
+        width: 197px;
+        transition: .4s;
+    }
+    
+    .menu ul li a:hover {
+        display: block;
+        color: #6278df;
+    }
+    
+    .menu ul li ul li a:hover {
+        display: block;
+        color: #6278df;
+    }
+    
+    .menu ul li:hover ul {
+        visibility: visible;
+        opacity: 1;
+        /*color: #6278df;
+        background: white;
+        display: block;*/
+    }
+    
+    .button {
+        margin-left: 194px;
+        line-height: 0px;
+        /*! width: 177px; */
+        /*! float: left; */
+        margin-top: 10px;
+    }
+    
+    .button a {
+        display: inline-block;
+        text-decoration: none;
+        border: 2px solid #6278df;
+        padding: 8px 20px;
+        font-weight: 700;
+        border-radius: 6px;
+        margin: 0px 0px 14px;
+        color: #6278df;
+    }
+    
+    .button a:hover {
+        display: inline-block;
+        background: #6278df;
+        color: white;
+        box-shadow: 1px 1px 1px 1px #6278df;
+    }
+    /*!Banner Section*/
+    
+    .bann {
+        padding: 60px 0 0 0;
+    }
+    
+    .lekha {
+        background: url(./img/mbr-4.jpg) no-repeat center center;
+        background-size: cover;
+        /*! margin-top: 0px; */
+        padding: 149px 0;
+        text-align: center;
+    }
+    
+    .lekha p {
+        text-align: center;
+        position: relative;
+        top: -36px;
+        font-size: 24px;
+        color: white;
+        display: block;
+    }
+    
+    .lekha h1 {
+        text-align: center;
+        padding: 0px 25px;
+        font-size: 57px;
+        position: relative;
+        top: -12px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .lekha a {
+        /*! text-align: center; */
+        display: inline-block;
+        margin: auto;
+        text-decoration: none;
+        color: gray;
+        background: white;
+        padding: 16px 32px;
+        margin: 32px 27px 0 29px;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 700;
+        transition: .4s;
+    }
+    
+    .lekha a:hover {
+        background: #6278df;
+        color: white;
+    }
+    /*dbanner*/
+    
+    .dbanner {
+        margin-top: 70px;
+    }
+    
+    .video {}
+    
+    .tex span {
+        color: gray;
+        font-size: 21px;
+        margin-top: 64px;
+        display: block;
+    }
+    
+    .tex h1 {
+        font-size: 57px;
+    }
+    
+    .tex {
+        margin-top: -12px;
+        margin-left: 8px;
+    }
+    /*lbanner*/
+    
+    .lbanner {
+        margin-top: 65px;
+    }
+    
+    .lekh {
+        text-align: center;
+    }
+    
+    .lekh h1 {
+        font-size: 59px;
+        font-weight: 700;
+    }
+    
+    .lekh p {
+        color: gray;
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    /*card*/
+    
+    .carred h4 {
+        /*! margin: 35px 18px 0 0; */
+        /*! text-align: end; */
+        padding: 20px 0 28px 168px;
+    }
+    
+    .carred p {
+        font-size: 23px;
+        /*! margin-left: -2px; */
+        font-weight: 600;
+        /*! padding: 0px; */
+        margin: 0px 0 0 0px;
+        position: relative;
+        top: -15px;
+        left: 0px;
+    }
+    
+    .carre
+    /*!Header Section*/
+    
+    .header {
+        border-bottom: 1px solid black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: white;
+        padding: 0px 0 -1px 0;
+        overflow: hidden;
+    }
+    
+    .logo {
+        ;
+        margin-top: 10px;
+    }
+    
+    .logo span {
+        display: inline-block;
+        background: #6278df;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        line-height: -1px;
+    }
+    
+    .logo p {
+        display: inline-block;
+        font-size: 26px;
+        font-weight: 574;
+        /*! line-height: 56px; */
+    }
+    
+    .menu {
+        margin-top: 10px;
+    }
+    
+    .menu ul {
+        margin-top: 0px;
+    }
+    
+    .menu ul li {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .menu ul li a {
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 6px 19px;
+    }
+    
+    .menu ul li ul li {
+        display: block;
+        margin-left: -33px;
+        padding: 0;
+        /*! width: 177px; */
+    }
+    
+    .menu ul li ul li:nth-child(2) {
+        /*! padding: 10px 0px; */
+        border-top: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(3) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(4) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(5) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+    }
+    
+    .menu ul li ul li a {
+        display: block;
+        color: black;
+        padding: 11px 21px;
+    }
+    
+    .menu ul li ul {
+        position: absolute;
+        top: 100%;
+        left: -3px;
+        visibility: hidden;
+        opacity: 0;
+        background: white;
+        right: 0px;
+        width: 197px;
+        transition: .4s;
+    }
+    
+    .menu ul li a:hover {
+        display: block;
+        color: #6278df;
+    }
+    
+    .menu ul li ul li a:hover {
+        display: block;
+        color: #6278df;
+    }
+    
+    .menu ul li:hover ul {
+        visibility: visible;
+        opacity: 1;
+        /*color: #6278df;
+        background: white;
+        display: block;*/
+    }
+    
+    .button {
+        margin-left: 194px;
+        line-height: 0px;
+        /*! width: 177px; */
+        /*! float: left; */
+        margin-top: 10px;
+    }
+    
+    .button a {
+        display: inline-block;
+        text-decoration: none;
+        border: 2px solid #6278df;
+        padding: 8px 20px;
+        font-weight: 700;
+        border-radius: 6px;
+        margin: 0px 0px 14px;
+        color: #6278df;
+    }
+    
+    .button a:hover {
+        display: inline-block;
+        background: #6278df;
+        color: white;
+        box-shadow: 1px 1px 1px 1px #6278df;
+    }
+    /*!Banner Section*/
+    
+    .bann {
+        padding: 60px 0 0 0;
+    }
+    
+    .lekha {
+        background: url(./img/mbr-4.jpg) no-repeat center center;
+        background-size: cover;
+        /*! margin-top: 0px; */
+        padding: 149px 0;
+        text-align: center;
+    }
+    
+    .lekha p {
+        text-align: center;
+        position: relative;
+        top: -36px;
+        font-size: 24px;
+        color: white;
+        display: block;
+    }
+    
+    .lekha h1 {
+        text-align: center;
+        padding: 0px 25px;
+        font-size: 57px;
+        position: relative;
+        top: -12px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .lekha a {
+        /*! text-align: center; */
+        display: inline-block;
+        margin: auto;
+        text-decoration: none;
+        color: gray;
+        background: white;
+        padding: 16px 32px;
+        margin: 32px 27px 0 29px;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 700;
+        transition: .4s;
+    }
+    
+    .lekha a:hover {
+        background: #6278df;
+        color: white;
+    }
+    /*dbanner*/
+    
+    .dbanner {
+        margin-top: 70px;
+    }
+    
+    .video {}
+    
+    .tex span {
+        color: gray;
+        font-size: 21px;
+        margin-top: 64px;
+        display: block;
+    }
+    
+    .tex h1 {
+        font-size: 57px;
+    }
+    
+    .tex {
+        margin-top: -12px;
+        margin-left: 8px;
+    }
+    /*lbanner*/
+    
+    .lbanner {
+        margin-top: 65px;
+    }
+    
+    .lekh {
+        text-align: center;
+    }
+    
+    .lekh h1 {
+        font-size: 59px;
+        font-weight: 700;
+    }
+    
+    .lekh p {
+        color: gray;
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    /*card*/
+    
+    .cad {}
+    
+    .rest {
+        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .16);
+        margin-bottom: 20px;
+        margin-top: 34px;
+    }
+    
+    .ikon {
+        width: 83px;
+        padding: 40px 0px 0 40px;
+        min-height: 187px;
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .ikon span {
+        font-size: 2rem;
+        color: #6278df;
+    }
+    
+    .s-iko {
+        line-height: 128px;
+    }
+    
+    .s-iko p {
+        font-size: 26px;
+        font-weight: 600;
+    }
+    
+    .s-iko h4 {
+        font-size: 21px;
+        margin-top: -25px;
+        padding: 0 0 50px 0;
+        width: 360px;
+        line-height: 30px;
+        color: gray;
+    }
+    /* tbanner*/
+    
+    .tbanner {
+        text-align: center;
+        margin-top: 55px;
+        background: #f7f9ff;
+        /*! font-size: 11px; */
+    }
+    
+    .texut {}
+    
+    .texut h2 {
+        font-size: 66px;
+    }
+    
+    .texut p {
+        font-size: 30px;
+        color: gray;
+        margin-top: 24px;
+    }
+    
+    .like {}
+    
+    .like h3 {}
+    
+    .like h1 {
+        display: inline-block;
+    }
+    
+    .like h5 {
+        display: inline-block;
+    }
+    
+    .like h4 {}
+    
+    .like p {}
+    /*!Header Section*/
+    
+    .header {
+        border-bottom: 1px solid black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: white;
+        z-index: 99;
+        width: 100%;
+    }
+    
+    .logo {
+        ;
+        margin-top: 10px;
+    }
+    
+    .logo span {
+        display: inline-block;
+        background: #6278df;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        line-height: -1px;
+    }
+    
+    .logo p {
+        display: inline-block;
+        font-size: 26px;
+        font-weight: 574;
+        /*! line-height: 56px; */
+    }
+    
+    .menu {
+        margin-top: 10px;
+    }
+    
+    .menu ul {
+        margin-top: 0px;
+    }
+    
+    .menu ul li {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .menu ul li a {
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 6px 19px;
+    }
+    
+    .menu ul li ul li {
+        display: block;
+        margin-left: -33px;
+        padding: 0;
+        /*! width: 177px; */
+    }
+    
+    .menu ul li ul li:nth-child(2) {
+        /*! padding: 10px 0px; */
+        border-top: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(3) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(4) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(5) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+    }
+    
+    .menu ul li ul li a {
+        display: block;
+        color: black;
+        padding: 11px 21px;
+    }
+    
+    .menu ul li ul {
+        position: absolute;
+        top: 100%;
+        left: -3px;
+        visibility: hidden;
+        opacity: 0;
+        background: white;
+        right: 0px;
+        width: 197px;
+        transition: .4s;
+    }
+    
+    .menu ul li a:hover {
+        display: block;
+        color: #6278df;
+    }
+    
+    .menu ul li ul li a:hover {
+        display: block;
+        color: #6278df;
+    }
+    
+    .menu ul li:hover ul {
+        visibility: visible;
+        opacity: 1;
+        /*color: #6278df;
+        background: white;
+        display: block;*/
+    }
+    
+    .button {
+        margin-left: 194px;
+        line-height: 0px;
+        /*! width: 177px; */
+        /*! float: left; */
+        margin-top: 10px;
+    }
+    
+    .button a {
+        display: inline-block;
+        text-decoration: none;
+        border: 2px solid #6278df;
+        padding: 8px 20px;
+        font-weight: 700;
+        border-radius: 6px;
+        margin: 0px 0px 14px;
+        color: #6278df;
+    }
+    
+    .button a:hover {
+        display: inline-block;
+        background: #6278df;
+        color: white;
+        box-shadow: 1px 1px 1px 1px #6278df;
+    }
+    /*!Banner Section*/
+    
+    .bann {
+        padding: 60px 0 0 0;
+    }
+    
+    .lekha {
+        background: url(./img/mbr-4.jpg) no-repeat center center;
+        background-size: cover;
+        /*! margin-top: 0px; */
+        padding: 149px 0;
+        text-align: center;
+    }
+    
+    .lekha p {
+        text-align: center;
+        position: relative;
+        top: -36px;
+        font-size: 24px;
+        color: white;
+        display: block;
+    }
+    
+    .lekha h1 {
+        text-align: center;
+        padding: 0px 25px;
+        font-size: 57px;
+        position: relative;
+        top: -12px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .lekha a {
+        /*! text-align: center; */
+        display: inline-block;
+        margin: auto;
+        text-decoration: none;
+        color: gray;
+        background: white;
+        padding: 16px 32px;
+        margin: 32px 27px 0 29px;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 700;
+        transition: .4s;
+    }
+    
+    .lekha a:hover {
+        background: #6278df;
+        color: white;
+    }
+    /*dbanner*/
+    
+    .dbanner {
+        margin-top: 70px;
+    }
+    
+    .video {}
+    
+    .tex span {
+        color: gray;
+        font-size: 21px;
+        margin-top: 64px;
+        display: block;
+    }
+    
+    .tex h1 {
+        font-size: 57px;
+    }
+    
+    .tex {
+        margin-top: -12px;
+        margin-left: 8px;
+    }
+    /*lbanner*/
+    
+    .lbanner {
+        margin-top: 65px;
+    }
+    
+    .lekh {
+        text-align: center;
+    }
+    
+    .lekh h1 {
+        font-size: 59px;
+        font-weight: 700;
+    }
+    
+    .lekh p {
+        color: gray;
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    /*card*/
+    
+    .carred h4 {
+        /*! margin: 35px 18px 0 0; */
+        /*! text-align: end; */
+        padding: 20px 0 28px 168px;
+    }
+    
+    .carred p {
+        font-size: 23px;
+        /*! margin-left: -2px; */
+        font-weight: 600;
+        /*! padding: 0px; */
+        margin: 0px 0 0 0px;
+        position: relative;
+        top: -15px;
+        left: 0px;
+    }
+    
+    .carre
+    /*!Header Section*/
+    
+    .header {
+        border-bottom: 1px solid black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: white;
+        padding: 0px 0 -1px 0;
+        overflow: hidden;
+    }
+    
+    .logo {
+        ;
+        margin-top: 10px;
+    }
+    
+    .logo span {
+        display: inline-block;
+        background: #6278df;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        line-height: -1px;
+    }
+    
+    .logo p {
+        display: inline-block;
+        font-size: 26px;
+        font-weight: 574;
+        /*! line-height: 56px; */
+    }
+    
+    .menu {
+        margin-top: 10px;
+    }
+    
+    .menu ul {
+        margin-top: 0px;
+    }
+    
+    .menu ul li {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .menu ul li a {
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 6px 19px;
+    }
+    
+    .menu ul li ul li {
+        display: block;
+        margin-left: -33px;
+        padding: 0;
+        /*! width: 177px; */
+    }
+    
+    .menu ul li ul li:nth-child(2) {
+        /*! padding: 10px 0px; */
+        border-top: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(3) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(4) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+    }
+    
+    .menu ul li ul li:nth-child(5) {
+        /*! padding: 10px 0px; */
+        border-bottom: 1px solid gray;
+    }
+    
+    .menu ul li ul li a {
+        display: block;
+        color: black;
+        padding: 11px 21px;
+    }
+    
+    .menu ul li ul {
+        position: absolute;
+        top: 100%;
+        left: -3px;
+        visibility: hidden;
+        opacity: 0;
+        background: white;
+        right: 0px;
+        width: 197px;
+        transition: .4s;
+    }
+    
+    .menu ul li a:hover {
+        display: block;
+        color: #6278df;
+    }
+    
+    .menu ul li ul li a:hover {
+        display: block;
+        color: #6278df;
+    }
+    
+    .menu ul li:hover ul {
+        visibility: visible;
+        opacity: 1;
+        /*color: #6278df;
+        background: white;
+        display: block;*/
+    }
+    
+    .button {
+        margin-left: 194px;
+        line-height: 0px;
+        /*! width: 177px; */
+        /*! float: left; */
+        margin-top: 10px;
+    }
+    
+    .button a {
+        display: inline-block;
+        text-decoration: none;
+        border: 2px solid #6278df;
+        padding: 8px 20px;
+        font-weight: 700;
+        border-radius: 6px;
+        margin: 0px 0px 14px;
+        color: #6278df;
+    }
+    
+    .button a:hover {
+        display: inline-block;
+        background: #6278df;
+        color: white;
+        box-shadow: 1px 1px 1px 1px #6278df;
+    }
+    /*!Banner Section*/
+    
+    .bann {
+        padding: 60px 0 0 0;
+    }
+    
+    .lekha {
+        background: url(./img/mbr-4.jpg) no-repeat center center;
+        background-size: cover;
+        /*! margin-top: 0px; */
+        padding: 149px 0;
+        text-align: center;
+    }
+    
+    .lekha p {
+        text-align: center;
+        position: relative;
+        top: -36px;
+        font-size: 24px;
+        color: white;
+        display: block;
+    }
+    
+    .lekha h1 {
+        text-align: center;
+        padding: 0px 25px;
+        font-size: 57px;
+        position: relative;
+        top: -12px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .lekha a {
+        /*! text-align: center; */
+        display: inline-block;
+        margin: auto;
+        text-decoration: none;
+        color: gray;
+        background: white;
+        padding: 16px 32px;
+        margin: 32px 27px 0 29px;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 700;
+        transition: .4s;
+    }
+    
+    .lekha a:hover {
+        background: #6278df;
+        color: white;
+    }
+    /*dbanner*/
+    
+    .dbanner {
+        margin-top: 70px;
+    }
+    
+    .video {}
+    
+    .tex span {
+        color: gray;
+        font-size: 21px;
+        margin-top: 64px;
+        display: block;
+    }
+    
+    .tex h1 {
+        font-size: 57px;
+    }
+    
+    .tex {
+        margin-top: -12px;
+        margin-left: 8px;
+    }
+    /*lbanner*/
+    
+    .lbanner {
+        margin-top: 65px;
+    }
+    
+    .lekh {
+        text-align: center;
+    }
+    
+    .lekh h1 {
+        font-size: 59px;
+        font-weight: 700;
+    }
+    
+    .lekh p {
+        color: gray;
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    /*card*/
+    
+    .cad {}
+    
+    .rest {
+        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .16);
+        margin-bottom: 20px;
+        margin-top: 34px;
+    }
+    
+    .ikon {
+        width: 83px;
+        padding: 40px 0px 0 40px;
+        min-height: 187px;
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .ikon span {
+        font-size: 2rem;
+        color: #6278df;
+    }
+    
+    .s-iko {
+        line-height: 128px;
+    }
+    
+    .s-iko p {
+        font-size: 26px;
+        font-weight: 600;
+    }
+    
+    .s-iko h4 {
+        font-size: 21px;
+        margin-top: -25px;
+        padding: 0 0 50px 0;
+        width: 360px;
+        line-height: 30px;
+        color: gray;
+    }
+    /* tbanner*/
+    
+    .tbanner {
+        text-align: center;
+        margin-top: 55px;
+        background: #f7f9ff;
+        /*! font-size: 11px; */
+    }
+    
+    .texut {}
+    
+    .texut h2 {
+        font-size: 66px;
+    }
+    
+    .texut p {
+        font-size: 30px;
+        color: gray;
+        margin-top: 24px;
+    }
+    
+    .like {
+        border-bottom: 1px solid black;
+        text-align: left;
+        padding: 35px;
+        transition: .4s;
+        height: 323px;
+    }
+    
+    .like:hover {
+        color: white;
+        background: #6278df;
+    }
+    
+    .like h3 {
+        font-size: 25px;
+        /*! padding: 42px 0 0 40px; */
+        font-weight: 600;
+    }
+    
+    .like h1 {
+        display: inline-block;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 106px;
+    }
+    
+    .like h5 {
+        display: inline-block;
+        font-weight: 700;
+    }
+    
+    .like h4 {
+        font-size: 21px;
+        font-weight: 525;
+    }
+    
+    .like p {
+        font-size: 21px;
+        padding: 13px 60px 0 0;
+        font-weight: 200;
+    }
+    
+    .two {
+        margin-top: 40px;
+        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .16);
+        background: white;
+        border-radius: 6px;
+        margin-bottom: 47px;
+    }
+    
+    .free {}
+    
+    .free ul {
+        list-style: none;
+        text-align: left;
+        padding: 35px;
+    }
+    
+    .free ul li {
+        color: gray;
+        font-size: 21px;
+        line-height: 67px;
+        font-weight: 344;
+        margin: 0 0 0px 0;
+    }
+    
+    .free ul li span {
+        color: #6278df;
+        font-size: 30px;
+        padding: 0px 20px 0 0;
+        position: relative;
+        top: 5px;
+    }
+    
+    .bbtt {
+        margin: auto;
+    }
+    
+    .hotel {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .pito {
+        /*! margin-top: 80px; */
+    }
+    
+    .pito img {
+        width: 303px;
+        border-radius: 5px 5px 0px 0;
+    }
+    
+    .liko {
+        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .2);
+        height: 122px;
+        border-radius: 0 0 5px 5px;
+        text-align: left;
+    }
+    
+    .liko p {
+        font-size: 30px;
+        font-weight: 600;
+        padding: 20px 0 0 20px;
+        margin: 0;
+    }
+    
+    .liko span {
+        padding: 20px 0 0px 20px;
+        font-size: 22px;
+        color: gray;
+        font-weight: 400;
+    }
+    
+    .twin {
+        border-radius: 0;
+        margin-bottom: 65px;
+        margin-top: 21px;
+    }
+    
+    .keep {
+        background: #f7f9ff;
+        text-align: center;
+        margin-bottom: 96px;
+    }
+    
+    .kolom {
+        margin-top: 100px !important;
+        margin-bottom: 63px;
+    }
+    
+    .kolom p {
+        font-size: 25px;
+        color: gray;
+    }
+    
+    .kolom span {
+        font-size: 54px;
+    }
+    
+    .inp {
+        text-align: end;
+        margin-bottom: 122px;
+    }
+    
+    .vutto {
+        text-align: left;
+    }
+    
+    .inp input {
+        display: inline-block;
+        padding: 12px 24px;
+        border-radius: 4px;
+        text-align: left;
+        font-size: 23px;
+        font-weight: 200;
+    }
+    
+    .puto img {
+        max-width: 100%;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    .puto {
+        display: inline-block;
+        /*! border-radius: 79px; */
+    }
+    
+    .foll {
+        margin-bottom: 70px;
+    }
+    
+    .leks {
+        height: 140px;
+    }
+    
+    .leks p {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .leks h6 {
+        font-size: 23px;
+        color: gray;
+    }
+    
+    .lul {
+        padding: 31px 46px 0 35px;
+        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .2);
+        width: 108%;
+        height: 100%;
+        margin-left: -24px;
+    }
+    
+    .lul p {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    .lul span {
+        font-size: 20px;
+        color: gray;
+    }
+    
+    .triangle {
+        background: #f7f9ff;
+        margin-bottom: 91px;
+    }
+    
+    .s-ik::after {
+        content: "";
+        position: absolute;
+        bottom: -20;
+        margin: auto;
+        left: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 25px 25px 0 25px;
+        border-color: white transparent transparent transparent;
+        /*! top: 100%; */
+    }
+    
+    .trina span {
+        font-size: 54px;
+        padding: 0px 0 60px 0;
+        display: block;
+    }
+    
+    .trina {}
+    
+    .trina p {
+        font-size: 25px;
+        color: gray;
+        margin: 63px 0 13px 0;
+    }
+    
+    .s-ik {
+        position: relative;
+    }
+    
+    .s-ik h4 {
+        padding: 55px 35px;
+        text-align: center;
+        position: relative;
+        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .2);
+        margin: 0px;
+    }
+    
+    .s-ik h4::before {
+        content: "\f10d";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+        position: absolute;
+        top: 7px;
+        left: 48px;
+        font-size: 5.1rem;
+        opacity: 0.1;
+    }
+    
+    .s-ik h4 span {}
+    
+    .doe {
+        margin-bottom: 44px;
+    }
+    
+    .doe img {
+        max-width: 45%;
+        margin: 33px 0 0 102px;
+        border-radius: 50px;
+    }
+    
+    .jason {}
+    
+    .jason p {
+        padding: 46px 0 0 0;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    .jason span {
+        color: gray;
+        /*! line-height: 16px; */
+    }
+    
+    .footsl {
+        margin: 21px 58px 0 85px;
+        /*! margin-right: 165px; */
+    }
+    
+    .footsl h3 {
+        font-size: 27px;
+        font-weight: 600;
+        font-family:
+    }
+    
+    p {}
+    
+    .footsl p {
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 35px;
+        color: gray;
+    }
+    
+    .footin {
+        margin: 30px 0 0 84px;
+    }
+    
+    .footin input {
+        font-size: 22px;
+        padding: 12px 197px 12px 15px;
+        color: gray;
+        height: 60px;
+        border-radius: 4px;
+    }
+    
+    .footing {
+        margin: 26px 0 0 84px;
+        border: 0;
+    }
+    
+    .footing input {
+        width: 235px;
+        height: 60px;
+        color: 111111;
+        font-size: 16px;
+        font-family: rajdhani;
+        margin-right: 19px;
+        border: 0;
+        border-bottom: 1px solid gray;
+      }
+    }
+    
+    .maps {
+        margin-bottom: 100px;
+    }
+    
+    .texus {
+        margin: 35px 0 0 84px;
+        /*! height: 0; */
+        /*! width: 344px; */
+    }
+    
+    .texus textarea {
+        width: 494px;
+        border-radius: 4px;
+        /*! height: 93px; */
+    }
+    
+    .maps iframe {
+        width: 100%;
+        height: 824px;
+    }
+    
+    .tbutt {
+        margin: 40px 0 0 84px;
+    }
+    
+    .tbutt a {
+        display: inline-block;
+        text-decoration: none;
+        border: 1px solid #6278df;
+        color: white;
+        background: #6278df;
+        border-radius: 7px;
+        padding: 12px 22px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    .fuler {}
+    
+    .fulers {
+        text-align: center;
+    }
+    
+    .fulers p {
+        color: black;
+        font-size: 23px;
+    }
+    
+    .fulers p b {}
